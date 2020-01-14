@@ -21,7 +21,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  min = 0
+  min = nil
   array.length.times do |index|
     if min > array[index]
       min = array[index]
